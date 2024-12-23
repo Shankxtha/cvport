@@ -1,0 +1,183 @@
+*
+{
+    font-family: poppins,sans-serif;
+}
+
+body
+{
+    color: white;
+    background-color: #081b29;
+}
+ 
+.whole
+{
+    padding-left: 5%;
+    display: flex;
+    gap: 300px;
+    height: 630px;
+
+}
+
+img{
+    opacity: 0.8;
+    background-color: #081b29;
+    height: 635px;
+} 
+
+a{
+    text-decoration: none;
+}
+
+.nav a
+{
+    color: white;
+    font-size: 20px  ;
+    font-weight: 600;
+}
+
+.nav a:hover
+ {
+    color: aquamarine;
+ }
+
+.nav
+{
+    color: white;
+    display: flex;
+    flex: wrap; 
+    gap: 650px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.nav span
+{
+    text-shadow:
+    0 0 30px #00abf0,
+    0 0 60px #00abf0;
+    font-weight: bold;
+}
+
+ul
+{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.talk
+{
+    font-weight:bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+   background-color: blueviolet;
+}
+.nav .talk:hover{
+    background-color: rgb(60, 205, 60);
+    color: black;
+}
+.talk a:hover{
+    color: white;
+}
+ 
+.main
+{
+    background-color: transparent;
+    height: 580px;
+    width: 550px;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.me h1 span
+{
+    text-shadow:
+    1px 1px 2px #00abf0;
+   
+    color: blueviolet;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+h3{
+    color: lightskyblue;
+    font-size:  30px;
+    font-weight: 700px;
+}
+
+.me p{
+    font-size: larger;
+}
+
+.hire{
+    background-color: transparent;
+    height: 60px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.hire a{
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 160px;
+    color: black;
+    background-color: #00abf0;
+    font-size: 20px;
+}
+
+.hire a:nth-child(2){
+    background-color: transparent;
+    color:#00abf0;
+    border: 2px solid ;
+    border-color: #00abf0;
+}
+ 
+.hire .pro2:hover{
+    background-color: #00abf0;
+        color: black;
+        transition: .5s;
+}
+.hire .pro1:hover{
+    background-color: rgb(105, 238, 105);
+    scale: 1.1;
+}
+
+.icon
+{
+    background-color: transparent;
+    width: 400px;
+    padding-left: 5%;
+    display: flex;
+    gap: 40px;
+}
+.icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    height: 45px ;
+    width: 45px;
+}
+
+.icon i:hover{
+    background-color: #00abf0;
+    transition: .5s;
+    color: black;
+}
+
